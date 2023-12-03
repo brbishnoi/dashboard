@@ -18,7 +18,7 @@ Before you begin, make sure you have Node.js and npm installed on your machine.
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/brbishnoi29/dashboard.git
+git clone https://github.com/brbishnoi/dashboard.git
 
 
 npm install
