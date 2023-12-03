@@ -1,0 +1,131 @@
+.app-container {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .selected-row {
+    background-color: #d3d3d3;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+  }
+  
+  .actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .edit, .select-all, .delete-selected {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .edit {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+  }
+ 
+
+  .delete {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+    
+  } 
+  
+  .select-all, .delete-selected {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .select-all:hover, .delete-selected:hover {
+    background-color: #d32f2f;
+  }
+  
+  .app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .app input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  span {
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ .save {
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .cancel {
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .save {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .cancel {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
